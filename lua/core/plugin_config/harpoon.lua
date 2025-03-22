@@ -14,5 +14,5 @@ vim.keymap.set("n", "<leader>;", function() harpoon:list():select(4) end)
 --vim.keymap.set("n", "<C-S-P>", function() harpoon:list():prev() end)
 --vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 
-vim.keymap.set("n", "<leader>i", function() harpoon:list():prev() end)
-vim.keymap.set("n", "<leader>o", function() harpoon:list():next() end)
+--vim.keymap.set("n", "<leader>i", function() harpoon:list():prev() end)
+--vim.keymap.set("n", "<leader>o", function() harpoon:list():next() end)

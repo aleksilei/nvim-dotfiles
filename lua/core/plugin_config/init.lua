@@ -1,17 +1,27 @@
-require("core.plugin_config.mason-config")
+-- Colorschemes
 require("core.plugin_config.base16")
---require("core.plugin_config.colorscheme")
+
+-- Harpoon is harpoon
 require("core.plugin_config.harpoon")
+
+-- Statusline plugin
 require("core.plugin_config.lualine")
+
+-- File utils
 require("core.plugin_config.nvim-tree")
 require("core.plugin_config.treesitter")
 require("core.plugin_config.telescope")
-require("core.plugin_config.vim-test")
-require("core.plugin_config.completions")
+
+-- Editing utils
 require("core.plugin_config.autopairs")
 require("core.plugin_config.indent-blankline")
 require("core.plugin_config.wrapping")
-require("core.plugin_config.lsp")
 require("core.plugin_config.gitsigns")
-require("core.plugin_config.rust_config")
---require("core.plugin_config.dap_config")
+require("core.plugin_config.colorizer")
+
+-- LSP
+require("core.plugin_config.lsp")
+require("core.plugin_config.mason")
+
+-- Debugger (Currently not in use. We test in prod)
+--require("core.plugin_config.dap")

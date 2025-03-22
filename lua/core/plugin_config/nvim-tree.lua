@@ -3,7 +3,10 @@ vim.g.loaded_netrwPlugin = 1
 
 require("nvim-tree").setup({
   view = {
-    adaptive_size = true
+      adaptive_size = true
+  },
+  filters = {
+      dotfiles = true
   }
 })
 

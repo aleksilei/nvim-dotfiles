@@ -1,11 +1,5 @@
--- Blasphamy
---vim.keymap.set({'n', 'v'}, 'j', 'h', {noremap = true})
---vim.keymap.set({'n', 'v'}, 'k', 'j', {noremap = true})
---vim.keymap.set({'n', 'v'}, 'l', 'k', {noremap = true})
---vim.keymap.set({'n', 'v'}, ';', 'l', {noremap = true})
-
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
-vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
+--vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 
 -- Navigate vim panes better
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
@@ -43,13 +37,6 @@ vim.keymap.set('v', '<leader>p', "\"+p")
 vim.keymap.set('n', '<leader>x', "\"+x")
 vim.keymap.set('v', '<leader>x', "\"+x")
 
--- woah AI
---vim.keymap.set('v', '<leader>]', ":Gen<CR>")
---vim.keymap.set('n', '<leader>]', ":Gen<CR>")
-
---tmux code compiler
---vim.keymap.set('n', '<leader>c', ":CompilerOpen<CR>")
-
 --Luke Smith document compiler
 --vim.keymap.set('n', '<leader>dc', ":w! | !compiler '%:p'<CR>")
 
@@ -77,4 +64,3 @@ vim.keymap.set('v', '<leader>x', "\"+x")
 --    local widgets = require('dap.ui.widgets')
 --    widgets.centered_float(widgets.scopes)
 --end)
-
