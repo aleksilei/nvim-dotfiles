@@ -34,6 +34,7 @@ local plugins = {
     'L3MON4D3/LuaSnip',
     'BurntSushi/ripgrep',
     'David-Kunz/gen.nvim',
+    'startup-nvim/startup.nvim',
 
     -- LSP
     'neovim/nvim-lspconfig',

@@ -23,5 +23,8 @@ require("core.plugin_config.colorizer")
 require("core.plugin_config.lsp")
 require("core.plugin_config.mason")
 
+-- Splashscreen
+--require("core.plugin_config.splash")
+
 -- Debugger (Currently not in use. We test in prod)
 --require("core.plugin_config.dap")
