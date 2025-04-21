@@ -5,6 +5,7 @@ local servers = {
     "gopls",
     "sourcekit",
     "pyright",
+    "phpactor",
 }
 
 for _, server in ipairs(servers) do
